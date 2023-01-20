@@ -36,7 +36,6 @@ exports.getTopTracks = async function getTopTracks() {
       Authorization: `Bearer ${access_token}`,
     },
   })
-  console.log( resp )
   return resp.json()
 }
 
